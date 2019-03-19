@@ -29,7 +29,8 @@ def initial_round
 end
 
 def hit?
-  puts prompt_user 
+   prompt_user 
+   input = get_user_input
 end
    
   
