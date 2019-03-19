@@ -34,7 +34,7 @@ def hit?
    until input == "h" || input == "s"
    invalid_command
    input = get_user_input
-   
+   if input == "h"
 end
    
   
