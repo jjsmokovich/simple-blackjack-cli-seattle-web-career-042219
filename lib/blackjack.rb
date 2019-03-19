@@ -33,7 +33,8 @@ def hit?
    input = get_user_input
    until input == "h" || input == "s"
    invalid_command
-   in
+   input = get_user_input
+   
 end
    
   
