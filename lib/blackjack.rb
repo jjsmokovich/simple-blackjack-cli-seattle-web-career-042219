@@ -31,7 +31,7 @@ end
 def hit?
    prompt_user 
    input = get_user_input
-   until input == "h" || 
+   until input == "h" || input == "s"
 end
    
   
